@@ -1,3 +1,0 @@
-print(
-    'soy lexi'
-)
