@@ -15,4 +15,6 @@ class Plato(Producto):
     def esta_disponible(self):
         return True
 class Bebida(Producto):
-    pass
+    def __init__(self, nombre, precio,tipo, tamaño):
+        super().__init__(nombre, precio)
+        
